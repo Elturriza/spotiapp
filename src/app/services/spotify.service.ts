@@ -22,7 +22,7 @@ export class SpotifyService {
 
    getNewReleases(){
         // const headers = new HttpHeaders({
-        //   'Authorization': 'Bearer BQDjpHwGJsrOSz2i5QcFb8RXQ6nQ6gD4_KPRa3kg6QFn9NK0ephYTh7M37F_fTvuIKBT1bFDIYyx2y9zCCM'
+        //   'Authorization': 'Bearer Token'
         // }) ya se usa el const headers
 
         return this.getQuery('browse/new-releases?country=MX&limit=20&offset=0')
